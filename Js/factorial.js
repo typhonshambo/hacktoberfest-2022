@@ -1,11 +1,24 @@
-function factorial(x) {
-    if(x==0){
-        return 1;
-    }
-    return x*factorial(x-1);
-}
-let data = 5;
-console.log(factorial(data));
+// Calculating Factorial
+// Factorial = 5
+// FactorialCalc = 5*4*3*2*1 = 120
 
-// interrnally what is happening  
-// console.warn(5*factorial(5-1)*factorial(4-1)*factorial(3-1)*factorial(2-1))*factorial(1-1);
+const readline = require("readline").createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+readline.question(`What factorial number do you want to calculate \n`, (x) => {
+  Factorial(x);
+  readline.close();
+});
+
+//Factorial
+function Factorial(x) {
+  value = x;
+  let factorial = 1;
+  for (let i = x; i > 1; i--) {
+    factorial *= i;
+  }
+  console.log(`The factorial of the number ${x} is ${factorial}`);
+}
+
+//Made By UlissesJunior

@@ -1,6 +1,5 @@
-function findNumbers(A, arraysize, sum) 
+function findNumbers(ArrayData, arraysize, sum) 
 {
-    let l, r; 
     for (let i = 0; i < arraysize - 2; i++) 
     { 
         for (let j = i + 1; j < arraysize - 1; j++) 
@@ -8,9 +7,9 @@ function findNumbers(A, arraysize, sum)
             // iterate and validate third num
             for (let k = j + 1; k < arraysize; k++) 
             { 
-                if (A[i] + A[j] + A[k] == sum) 
+                if (ArrayData[i] + ArrayData[j] + ArrayData[k] == sum) 
                 { 
-                    console.log("Triplet is " + A[i] +  ", " + A[j] + ", " + A[k]); 
+                    console.log("Triplet is " + ArrayData[i] +  ", " + ArrayData[j] + ", " + ArrayData[k]); 
                     return true; 
                 } 
             } 

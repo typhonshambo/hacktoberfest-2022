@@ -16,6 +16,10 @@ This repository is going to be a database of all small useful code snippets in w
 - Make sure to add comments to your code, what they actually do and name of the file should also resemble to it's work.
 
 - Make a PR (pull request), and i'll merge it by providing you a lable of `hacktoberfest-accepted` :)
+
+## Contributors
+![GitHub Contributors Image](https://contrib.rocks/image?repo=typhonshambo/hacktoberfest-2022)
+
 ### 🍄 CONTACT ME
 - `discord` `Shamboッ#5047` - https://dsc.gg/tygamers
 - `email` - shamboc04@gmail.com

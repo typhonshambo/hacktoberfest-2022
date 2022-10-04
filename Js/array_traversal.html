@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array Traversal</title>
+
+  </head>
+  <body>
+    <h1>My name is Rahul</h1>
+    <input type="text" id="name" placeholder="number" />
+    <button onClick="traverse()">Traverse</button>
+    <script>
+        //   let arr = [9, 5, 2, 1, 4, 41, 90, 6, 0, 5];
+        //   // arr = parseInt(arr);
+        //   for (let i = 0; i < arr.length; i++) {
+        //     // document.write(`${i} is ${arr[i]} <br>`);
+        //   }
+        //   let x = 3;
+        //   document.write(`${x}`);
+        function traverse() {
+          let arr = [9, 5, 2, 1, 4, 41, 90, 6, 0, 5];
+          for (let i = 0; i < arr.length; i++) {
+            let x = document.getElementById("name").value;
+            alert(arr[x]);
+          }
+        }
+      </script>
+  </body>
+</html>

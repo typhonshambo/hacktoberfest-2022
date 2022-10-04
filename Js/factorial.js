@@ -1,3 +1,4 @@
+=======
 // Calculating Factorial
 // Factorial = 5
 // FactorialCalc = 5*4*3*2*1 = 120
@@ -20,5 +21,6 @@ function Factorial(x) {
   }
   console.log(`The factorial of the number ${x} is ${factorial}`);
 }
+
 
 //Made By UlissesJunior
